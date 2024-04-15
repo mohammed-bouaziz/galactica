@@ -12,16 +12,16 @@ Galactic Travel is a Django-based API that enables users to create, manage, and 
 ### Cloning the Repository
 First, clone the repository to your local machine:
 ```bash
-git clone [repository-url]
-cd [repository-directory]
+git clone https://github.com/mohammed-bouaziz/galactica.git
+cd galactica
 ```
 
 
 ### Cloning the Repository
 To build and run the project using Docker, execute the following commands:
 ```bash
-docker build -t galactic_routes .
-docker run -p 8000:8000 galactic_routes
+docker build -t galactica .
+docker run -p 8000:8000 galactica
 ```
 This will start the Django application accessible via localhost:8000.
 
